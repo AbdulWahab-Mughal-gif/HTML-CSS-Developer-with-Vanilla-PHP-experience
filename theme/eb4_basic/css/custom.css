@@ -1,0 +1,104 @@
+/* 여기에 작업 또는 수정할 당신의 css style을 설정하세요. (customizations) */
+header .site-logo{
+    width: 78px;
+}
+
+header .navbar-nav>li.dropdown-mega-menu>.nav-link{
+    position: relative;
+    border: transparent;
+}
+
+header .header-title-btn{
+    display: inline-flex;
+}
+
+header .header-title .header-title-search{
+    width: 208px;
+    margin-left: 20px;
+    position: relative;
+    transform: none;
+    top: auto;
+    left: auto;
+}
+
+header .header-title-search #search_input, header .header-title .header-title-search .eyoom-form .input input{
+    border: transparent;
+    background: #F8F9FC;
+    border-radius: 25px;
+}
+header .header-title .header-title-search .eyoom-form .input-button .button{
+    color: #2F333C;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+.footer{
+    background-color: black;
+    padding: 34px 0 64px 0px;
+}
+
+.footer .site-logo{
+    width: 54px;
+}
+
+.footer .footer-right-nav a{
+    color: white;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.footer .footer-cont-info, .footer .footer-copyright{
+    text-align: left;
+}
+
+.footer .footer-copyright{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.footer .footer-bottom-links a{
+    color: white;
+    margin-right: 24px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+.footer .footer-top-white-time{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: white;
+}
+
+.footer .footer-cont-info{
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #9DA6BB;
+}
+.footer .spacer-20{
+    height: 20px;
+}
+
+@media (max-width: 991px) {
+    .footer-right-nav{
+        margin-top: 20px;
+    }
+    .footer-nav {
+        text-align: left;
+    }
+    .footer-right-nav{
+        text-align: left;
+        display: grid;
+    }
+    .footer .footer-right-nav a{
+        padding: 10px 0px;
+    }
+}
